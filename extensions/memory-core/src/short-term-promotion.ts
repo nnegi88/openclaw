@@ -252,7 +252,6 @@ export async function rankShortTermPromotionCandidates(
 }
 
 export {
-  type PromotionCandidate,
   type RankShortTermPromotionResult,
   type RepairShortTermPromotionArtifactsResult,
   type ShortTermAuditSummary,

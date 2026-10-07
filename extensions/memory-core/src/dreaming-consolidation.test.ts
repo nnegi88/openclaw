@@ -12,10 +12,10 @@ import {
   readMemoryCoreWorkspaceEntries,
 } from "./dreaming-state.js";
 import { buildPromotionRecallAnnotations } from "./short-term-promotion-metadata.js";
+import type { PromotionCandidate } from "./short-term-promotion-types.js";
 import {
   rankShortTermPromotionCandidates,
   recordShortTermRecalls,
-  type PromotionCandidate,
 } from "./short-term-promotion.js";
 import {
   applyShortTermPromotionsForTests as applyShortTermPromotions,
